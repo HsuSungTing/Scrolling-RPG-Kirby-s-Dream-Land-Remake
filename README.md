@@ -7,6 +7,11 @@ demo video:https://youtu.be/q5p8vg_xWjI?si=TOF4YWbhbxOmniMt
 
 FPGA:XILINX
 
+system layout:
+
+![image](https://github.com/HsuSungTing/Scrolling-RPG-Kirby-s-Dream-Land-Remake/assets/89059171/f85d6f82-7afd-4c30-8e90-efb27b6a599e)
+
+
 <img width="255" alt="image" src="https://github.com/HsuSungTing/Scrolling-RPG-Kirby-s-Dream-Land-Remake/assets/89059171/096673f7-c2de-4f26-bcec-858fb84cb23a">
 
 
