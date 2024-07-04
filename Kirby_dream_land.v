@@ -266,7 +266,8 @@ always@(posedge clk_debounce or negedge Reset) begin
     end
     else begin
         kirby_x <= next_kirby_x;
-        kirby_y <= next_kirby_y;
+        kirby_y <= next_kirby_y; //如果我們希望卡比以2HZ下落，用always@(clk_2HZ)去更新kirby_y是可以的，但因為我們這邊要滿足使用者的需求，例如往左、往上等地操作頻率一定會大於2HZ，所以我們才用1000HZ的clk來更新kirby_y
+        //我們用高頻的clk寫sequential module，並且用debounce moudle額外避免我們某些行為被重複判定(例如這邊的下落)是非常好的方式，凱方的做法以及coding style非常好
     end
 end
 //----- next_kirby_x---------------
